@@ -1,0 +1,22 @@
+[package]
+name = "web"
+edition.workspace = true
+version.workspace = true
+authors.workspace = true
+description.workspace = true
+documentation.workspace = true
+publish = false
+
+[dependencies]
+dx-ether-rs = { workspace = true }
+dioxus = { workspace = true }
+web-sys = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+alloy-core = { workspace = true }
+alloy-sol-types = { workspace = true }
+alloy-sol-macro = { workspace = true }
+
+[features]
+default = ["web"]
+web = ["dioxus/web"]
