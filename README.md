@@ -1,5 +1,7 @@
 # Dioxus web3 ethereum wallet integration
 
+## ARCHIVED, MOVED TO GITLAB -> [https://gitlab.kotletti.com/kotletti/deps/dx-ether-rs](https://gitlab.kotletti.com/kotletti/deps/dx-ether-rs)
+
 ### How its work
 Its bridge between JS layer and WASM.
 `dioxus::document::eval` invoke JS functions and manage the responses, thats all.
